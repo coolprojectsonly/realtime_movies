@@ -1,0 +1,41 @@
+{
+  "name": "review",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@pmndrs/branding": "^0.0.8",
+    "@react-three/drei": "^9.86.3",
+    "@react-three/fiber": "^8.14.4",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "framer-motion": "^10.16.4",
+    "fs": "^0.0.1-security",
+    "maath": "^0.10.4",
+    "match-sorter": "^4.2.1",
+    "namor": "^2.0.2",
+    "next": "13.4.10",
+    "openai": "^4.10.0",
+    "pexels": "^1.4.0",
+    "puppeteer": "^21.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.1.2",
+    "react-simple-star-rating": "^5.1.7",
+    "react-table": "^7.8.0",
+    "styled-components": "^6.0.8",
+    "three": "^0.157.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
+  }
+}

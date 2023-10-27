@@ -1,0 +1,74 @@
+.spanBlue {
+  color: blue;
+  text-decoration: underline;
+}
+
+.imageWrapper {
+  /* display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr; */
+  width: 97vw;
+  height: 80vh;
+  margin: 10px;
+  position: relative;
+  /* background-color: rgb(58, 51, 62); */
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+
+.bookNow {
+  margin: 0 auto;
+}
+
+.modalImage {
+  /* width: 350px; */
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-right: 0;
+  margin: 10px;
+}
+
+.coverDiv {
+  height: 220px;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+}
+
+.infoData {
+  background-color: lightblue;
+  border-radius: 10px;
+  /* width: 350px; */
+  height: 300px;
+  margin-left: 0;
+  margin: 10px;
+  box-shadow: 5px red;
+}
+
+.infoContainer {
+  width: 70vw;
+  height: 56vh;
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  top: 0%;
+  left: 15%;
+  /* right: 25%; */
+}
+
+.imageContainer {
+  /* width: 350px; */
+  height: 220px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.headerSection {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
